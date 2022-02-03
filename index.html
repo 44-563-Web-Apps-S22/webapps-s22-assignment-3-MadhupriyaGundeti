@@ -68,5 +68,21 @@
                 <td>$500</td>
             </tr>
         </table>
+        <hr>
+        <h3>Code</h3>
+        <blockquote>
+                    Primality tests is an algorithm used for determining wheather the given number is prime number or not.
+                    It is easy to compare to numbers.
+            <a href=https://en.wikipedia.org/wiki/Primality_test>the link</a>
+        </blockquote>
+        <pre>
+            bool isPrime(int x) {
+                for (int d = 2; d * d <= x; d++) {
+                    if (x % d == 0)
+                        return false;
+                }
+                return true;
+            }
+        </pre>
     </body>
 </html>
